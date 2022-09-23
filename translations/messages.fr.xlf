@@ -9,6 +9,26 @@
         <source>Welcome</source>
         <target>Bienvenue</target>
       </trans-unit>
+      <trans-unit id="4QuY1vq" resname="My recipe website">
+        <source>My recipe website</source>
+        <target>Mon site de recettes</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="1mQoLmL" resname="Recipes">
+        <source>Recipes</source>
+        <target>Recettes</target>
+      </trans-unit>
+      <trans-unit id="wcIksDz" resname="Admin">
+        <source>Admin</source>
+        <target>Administrateur</target>
+      </trans-unit>
+      <trans-unit id="7y1M6WH" resname="Search a recipe">
+        <source>Search a recipe</source>
+        <target>Rechercher une recette</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
