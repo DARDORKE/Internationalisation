@@ -1,5 +1,14 @@
-Le but de cet exercice sera de créer 2 routes préfixées par la locale pour afficher un simple Hello World.
+Donnons maintenant le choix de la langue à l'utilisateur !
 
-La route /fr/hello devra afficher « Bonjour le monde ».
+Plusieurs applications permettent de laisser choisir à l'utilisateur la langue pour le reste de sa navigation.
 
-La route /en/hello devra afficher « Hello world ».
+C'est ce que vous allez accomplir pour cet exercice.
+
+Le but est de proposer à l'utilisateur un formulaire de connexion multilingue.
+
+Pour simplifier ce défi, vous pouvez directement créer les champs dans le Form Type tel que
+l'exemple de formulaire de ce cours plutôt que de créer des entités pour générer ce formulaire.
+
+L'objectif est uniquement d'afficher le formulaire.
+
+Essayez d'utiliser des keywords plutôt que des vrais mots.
