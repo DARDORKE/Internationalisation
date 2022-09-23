@@ -7,15 +7,16 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Contracts\Translation\TranslatorInterface;
 
-class NavbarController extends AbstractController
+class WelcomeController extends AbstractController
 {
-    #[Route('/navbar', name: 'app_navbar')]
+    #[Route('/hello', name: 'app_welcome')]
     public function index(TranslatorInterface $translator): Response
     {
-        
+        $welcome = $translator->trans('HelloWorld');
 
-        return $this->render('navbar/index.html.twig', [
-            'controller_name' => 'NavbarController',
+
+        return $this->render('welcome/index.html.twig', [
+            'welcome' => $welcome,
         ]);
     }
 }
