@@ -1,19 +1,5 @@
-Mettez en place la traduction en français dans une application dont le contenu initial est en anglais !
+Le but de cet exercice sera de créer 2 routes préfixées par la locale pour afficher un simple Hello World.
 
-Vous pouvez soit partir d'un tout nouveau projet symfony, soit d'un existant.
+La route /fr/hello devra afficher « Bonjour le monde ».
 
-L'objectif sera de traduire les éléments d'une navbar et de les afficher.
-
-Même si un développeur est supposé avoir un bon niveau d'anglais, ce n'est pas son rôle de réaliser les traductions.
-
-Les traductions vous sont donc fournies :
-
-My recipe website : mon site de recettes
-
-Search a recipe : rechercher une recette
-
-Home : accueil
-
-Recipes : recettes
-
-Admin : administrateur
+La route /en/hello devra afficher « Hello world ».
