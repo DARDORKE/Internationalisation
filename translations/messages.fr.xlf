@@ -5,34 +5,18 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="DiImtSN" resname="Welcome">
-        <source>Welcome</source>
-        <target>Bienvenue</target>
-      </trans-unit>
-      <trans-unit id="4QuY1vq" resname="My recipe website">
-        <source>My recipe website</source>
-        <target>Mon site de recettes</target>
-      </trans-unit>
-      <trans-unit id="OnhpU4i" resname="Home">
-        <source>Home</source>
-        <target>Accueil</target>
-      </trans-unit>
-      <trans-unit id="1mQoLmL" resname="Recipes">
-        <source>Recipes</source>
-        <target>Recettes</target>
-      </trans-unit>
-      <trans-unit id="wcIksDz" resname="Admin">
-        <source>Admin</source>
-        <target>Administrateur</target>
-      </trans-unit>
-      <trans-unit id="7y1M6WH" resname="Search a recipe">
-        <source>Search a recipe</source>
-        <target>Rechercher une recette</target>
-      </trans-unit>
-      <trans-unit id="hy5OUM6" resname="HelloWorld">
-        <source>HelloWorld</source>
-        <target>Bonjour le monde</target>
-      </trans-unit>
+      <trans-unit id="form-login1" resname="login.username">
+            	<source>login.username</source>
+            	<target>Nom d'utilisateur</target>
+          	</trans-unit>
+          	<trans-unit id="form-login2" resname="login.enter.username">
+            	<source>login.enter.username</source>
+            	<target>Entrer votre nom d'utilisateur</target>
+          	</trans-unit>
+          	<trans-unit id="form-login3" resname="login.password">
+            	<source>login.password</source>
+            	<target>Mot de passe</target>
+          	</trans-unit>
     </body>
   </file>
 </xliff>

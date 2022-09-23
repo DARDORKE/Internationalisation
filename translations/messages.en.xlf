@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+    <trans-unit id="form-login1" resname="login.username">
+        	<source>login.username</source>
+        	<target>Username</target>
+      	</trans-unit>
+      	<trans-unit id="form-login2" resname="login.enter.username">
+        	<source>login.enter.username</source>
+        	<target>Enter your username</target>
+      	</trans-unit>
+      	<trans-unit id="form-login3" resname="login.password">
+        	<source>login.password</source>
+        	<target>Password</target>
+      	</trans-unit>
+    </body>
+  </file>
+</xliff>

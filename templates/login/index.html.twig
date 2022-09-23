@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div>
+        {{ app.request.locale == 'fr' ? '->' : '' }}
+        <a href="{{ path('app_login', {'_locale': 'fr'}) }}">
+            🇫🇷 FR
+        </a>
+    </div>
+    <div>
+        <a href="{{ path('app_login', {'_locale': 'en'}) }}">
+            {{ app.request.locale == 'en' ? '->' : '' }}
+            🇬🇧 EN
+        </a>
+    </div>
+
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+{% endblock %}
